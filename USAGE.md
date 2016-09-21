@@ -12,6 +12,7 @@
 - [Faker.Lorem.Shakespeare](#fakerloremshakespeare)
 - [Faker.Name](#fakername)
 - [Faker.Team](#fakerteam)
+- [Faker.Superhero](#fakersuperhero)
 
 ### Faker.Address
 
@@ -256,4 +257,13 @@ Faker.Name.title #=> "Chief Brand Planner"
 Faker.Team.creature #=> "chickens"
 
 Faker.Team.name #=> "Delaware ants"
+```
+
+
+### Faker.Superhero
+
+```elixir
+Faker.Superhero.name #=> "Magnificent Shatterstar"
+
+Faker.Superhero.power #=> "Photokinesis"
 ```
